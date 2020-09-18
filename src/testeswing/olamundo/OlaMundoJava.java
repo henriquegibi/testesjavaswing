@@ -4,6 +4,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
 
     public OlaMundoJava() {
         initComponents();
+        gifPalmas.setVisible(false);
     }
 
     @SuppressWarnings("unchecked")
@@ -30,7 +31,6 @@ public class OlaMundoJava extends javax.swing.JFrame {
         });
 
         gifPalmas.setIcon(new javax.swing.ImageIcon("C:\\Users\\henri\\OneDrive\\Documentos\\NetBeans Projects\\OlaMundoSwing\\images\\clapping hands.gif")); // NOI18N
-        gifPalmas.setEnabled(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -64,7 +64,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
     private void btnClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClickActionPerformed
         lblMensagem.setText("Olá, Mundo!");
         btnClick.setText("Obrigado!");
-        gifPalmas.setEnabled(true);
+        gifPalmas.setVisible(true);
         
     }//GEN-LAST:event_btnClickActionPerformed
 
